@@ -1,0 +1,63 @@
+{
+  "name": "security-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/faker": "^4.1.6",
+    "@types/jest": "^24.0.15",
+    "@types/styled-components": "^4.1.16",
+    "axios": "^0.19.0",
+    "easy-peasy": "2.4",
+    "faker": "^4.1.0",
+    "grommet": "^2.7.1",
+    "grommet-controls": "^1.1.19",
+    "grommet-icons": "^4.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-use-form-state": "^0.10.4",
+    "redux-persist": "^5.10.0",
+    "styled-components": "^4.3.1",
+    "styled-system": "4.2.4",
+    "typescript": "3.5.1",
+    "use-react-router": "^1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "12.0.7",
+    "@types/react": "16.8.19",
+    "@types/react-dom": "16.8.4",
+    "@types/react-router-dom": "^4.3.3",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2"
+  }
+}
